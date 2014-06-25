@@ -1,0 +1,185 @@
+p {
+    font-family: Verdana;
+    font-size: 22px;
+    text-align: center;
+}
+body {
+    background: #990033;
+}
+#placeholder {
+    width: 550px;
+    height: 300px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#container {
+    font-family: Verdana;
+    font-size: 15px;
+    color: #333;
+    
+    width: 800px;
+	background: #FFF;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em 2em;
+	border: 1px solid;
+	border-left-color: #7F0000;
+	border-top-color: #7F0000;
+	border-right-color: #FF4040;
+	border-bottom-color: #FF4040;
+	
+	min-height: 800px;
+}
+input[type="text"] {
+    border: 0px;
+    color: #333;
+    font-family: Verdana;
+    font-size:1em;
+    text-align:right;
+    position:absolute;
+    margin-right: 0.75em;
+    right: 43%;
+    width: 5.3em;
+    height: 1.3em;
+    top:50%;
+    margin-top: -0.65em;
+    padding: 2px;
+    vertical-align:middle;
+}
+#popSlider {
+    width: 40%;
+    float:right;
+    top: 50%;
+    margin-top: -0.4em;
+}
+#infSlider {
+    width: 40%;
+    float:right;
+    top: 50%;
+    margin-top: -0.4em;
+}
+#BSlider {
+    width: 40%;
+    float:right;
+    top: 50%;
+    margin-top: -0.4em;
+}
+#kSlider {
+    width: 40%;
+    float:right;
+    top: 50%;
+    margin-top: -0.4em;
+}
+#timeStepSlider {
+    width: 40%;
+    float:right;
+    top: 50%;
+    margin-top: -0.4em;
+}
+#timeSlider {
+    width: 40%;
+    float:right;
+    top: 50%;
+    margin-top: -0.4em;
+}
+#runSim {
+    width:600px;
+    height:70px;
+    text-align:center;
+    border-top:1px solid #AAA;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:1em;
+    padding-right:1em;
+}
+#simulate {
+	margin-top: 17.5px;
+}
+#runSim:hover {
+    background-color:#FFCB66;
+}
+#initPopSize {
+    position:relative;
+    width:600px;
+    height:70px;
+    line-height:70px;
+    margin-left:auto;
+    margin-right:auto;
+    border-top:1px solid #AAA;
+    padding-left:1em;
+    padding-right:1em;
+}
+#initPopSize:hover {
+    background-color:#FFCB66;
+}
+#initInfSize {
+    position:relative;
+    width:600px;
+    height:70px;
+    line-height:70px;
+    margin-left:auto;
+    margin-right:auto;
+    border-top:1px solid #AAA;
+    padding-left:1em;
+    padding-right:1em;
+}
+#initInfSize:hover {
+    background-color:#FFCB66;
+}
+#infRate {
+    position:relative;
+    width:600px;
+    height:70px;
+    line-height:70px;
+    margin-left:auto;
+    margin-right:auto;
+    border-top:1px solid #AAA;
+    padding-left:1em;
+    padding-right:1em;
+}
+#infRate:hover {
+    background-color:#FFCB66;
+}
+#recRate {
+    position:relative;
+    width:600px;
+    height:70px;
+    line-height:70px;
+    margin-left:auto;
+    margin-right:auto;
+    border-top:1px solid #AAA;
+    padding-left:1em;
+    padding-right:1em;
+}
+#recRate:hover {
+    background-color:#FFCB66;
+}
+#timeStepDiv {
+    position:relative;
+    width:600px;
+    height:70px;
+    line-height:70px;
+    margin-left:auto;
+    margin-right:auto;
+    border-top:1px solid #AAA;
+    padding-left:1em;
+    padding-right:1em;
+}
+#timeStepDiv:hover {
+    background-color:#FFCB66;
+}
+#totTime {
+    position:relative;
+    width:600px;
+    height:70px;
+    line-height:70px;
+    margin-left:auto;
+    margin-right:auto;
+    border-top:1px solid #AAA;
+    border-bottom:1px solid #AAA;
+    padding-left:1em;
+    padding-right:1em;
+}
+#totTime:hover {
+    background-color:#FFCB66;
+}

@@ -1,0 +1,49 @@
+<head>
+	<title>SIR Model in jQuery</title>
+</head>
+
+<body>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="jquery.flot.js"></script>
+	<script type="text/javascript" src="ui.zombie.js"></script>
+	<link type="text/css" rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+	<link type="text/css" rel="stylesheet" href="ui.zombie.css" />
+	
+    <div id="container">
+        <p>SIR Model in jQuery</p>
+        <div id="placeholder"></div>
+        <br>
+        <div id="runSim">
+            <input type="button" value="Run Simulation" class="simulate" id="simulate" />
+        </div>
+        <div id="initPopSize">Initial Population Size
+            <input type="text" name="initPop" class="initPop" id="initPop" />
+            <div id="popSlider"></div>
+        </div>
+        <div id="initInfSize">Initially Infected Population
+            <input type="text" name="initInf" class="initInf" id="initInf" />
+            <div id="infSlider"></div>
+        </div>
+        <div id="infRate">Infection Rate
+            <input type="text" name="B" class="B" id="B" />
+            <div id="BSlider"></div>
+        </div>
+        <div id="recRate">Recovery Rate
+            <input type="text" name="k" class="k" id="k" />
+            <div id="kSlider"></div>
+        </div>
+        <div id="timeStepDiv">Time Step
+            <input type="text" name="timeStep" class="timeStep" id="timeStep" />
+            <div id="timeStepSlider"></div>
+        </div>
+        <div id="totTime">Total time
+            <input type="text" name="time" class="time" id="time" />
+            <div id="timeSlider"></div>
+        </div>
+        <br>
+        <br>
+    </div>
+</body>
+<br>
